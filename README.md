@@ -64,10 +64,11 @@ Authentication
 You need to login first to get a JWT Token and use it to authorize further API calls.
 
 Seeded Users:
+| Username | Password | Role |
+|-----------------|-----------------|-----------------|
+| john.doe | Mabc@123     | Manager    |
+| jane.smith | Abc@123     | User    |
 
-Username	Password	Role
-john.doe	Mabc@123	Manager
-jane.smith	Abc@123	User
 Use the /login endpoint to get a token.
 
 Set the token in Swagger using Authorize button (Bearer {token}).
